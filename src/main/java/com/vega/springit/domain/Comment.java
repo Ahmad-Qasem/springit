@@ -19,6 +19,6 @@ public class Comment {
 	@NonNull
 	private String body;
 
-	// body
+	// comment
 
 }
