@@ -15,7 +15,7 @@ import lombok.NonNull;
 @Entity
 @Data
 @NoArgsConstructor // we are adding this annotation because @data is adding args constructor and we don't want it
-public class Link {
+public class Link extends Auditable {
 
 	@Id
 	@GeneratedValue
